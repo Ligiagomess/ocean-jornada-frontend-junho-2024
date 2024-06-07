@@ -13,7 +13,7 @@ function App() {
   }
 
   const item3 = {
-    name: 'Summer Smith',
+    name: 'Summer Smith hguihjh',
     image: 'https://rickandmortyapi.com/api/character/avatar/3.jpeg'
   }
 
