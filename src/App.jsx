@@ -12,11 +12,19 @@ function App() {
     image: 'https://rickandmortyapi.com/api/character/avatar/2.jpeg'
   }
 
+  const item3 = {
+    name: 'Summer Smith',
+    image: 'https://rickandmortyapi.com/api/character/avatar/3.jpeg'
+  }
+
+  //Listas Arrays
+  const itens = [item1, item2, item3]
+
   return (
     <>
       <div className='cards'>
-        <Card item={item1} />
-        <Card item={item2} />
+        {/*Para cada um dos itens da lista, exibir um Card*/}
+        {itens.map(elemento => <Card item={elemento} key={elemento.name} />)}
       </div>
     </>
   )
