@@ -1,18 +1,18 @@
 .card {
-    border: 1px solid #9b9a9a;
+    border: 1px solid black;
     padding: 16px;
     border-radius: 16px;
     width: 330px;
     text-align: center;
-    color: white;
-    box-shadow: 3px 3px 5px #696969;
-    background-color: #000000;
+    color: #000000;
+    box-shadow: 3px 3px #696969;
+    background-color: #e7e7e7;
     cursor: pointer;
 }
 
 .card:hover {
-    border: 2px solid #9b9a9a;
-    box-shadow: 3px 3px 5px #807e7e;
+    border: 2px solid black;
+    box-shadow: 3px 3px #696969;
     translate: -3px -3px;
     transition: all 0.15s ease-in-out;
     
@@ -47,6 +47,6 @@
 
 .card img {
     border-radius: 16px;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
